@@ -17,7 +17,7 @@ namespace Task6_git
             Console.WriteLine("Введите число 2");
             int number2 = int.Parse(Console.ReadLine());
         RetryOperand:
-            Console.WriteLine("Ведите функцию +");
+            Console.WriteLine("Ведите функцию +,-");
             string operand = Console.ReadLine();
             int result = 0;
             switch (operand)
@@ -25,6 +25,11 @@ namespace Task6_git
                 case "+":
                     {
                         result = number1 + number2;
+                        break;
+                    }
+                case "-":
+                    {
+                        result = number1 - number2;
                         break;
                     }
                 default:
