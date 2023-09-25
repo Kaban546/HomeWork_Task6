@@ -27,6 +27,12 @@ namespace Task6_git
                         result = number1 + number2;
                         break;
                     }
+                case "*":
+                    {
+                        result = number1 * number2;
+                        break;
+                    }
+
                 case "-":
                     {
                         result = number1 - number2;
